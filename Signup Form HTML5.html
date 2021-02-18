@@ -61,7 +61,7 @@
         }
     </style>
 <body>
-    <form>
+    <form method="GET">
         <h1 id="form-heading">Register</h1>
         <div id="social-wrapper">
             <img class="social-icon" src="http://pluspng.com/img-png/google-logo-png-open-2000.png" alt="googlelogo">
@@ -72,16 +72,16 @@
 
         <div id="input-wrapper">
             <div>
-                <input class="input-box" type="text" name="username" placeholder="Username">
+                <input class="input-box" type="text" name="username" placeholder="Username" required>
             </div>
             <div>
-                <input class="input-box" type="email" name="email" placeholder="Email">
+                <input class="input-box" type="email" name="email" placeholder="Email" required>
             </div>
             <div>
-                <input class="input-box" type="password" name="password" placeholder="Password">
+                <input class="input-box" type="password" name="password" placeholder="Password" required>
             </div>
             <div>
-                <input class="input-box" type="password" name="confirm-password" placeholder="Confirm password">
+                <input class="input-box" type="password" name="confirm-password" placeholder="Confirm password" required>
             </div>
 
             <input id="btn-submit" type="submit" value="Register">
